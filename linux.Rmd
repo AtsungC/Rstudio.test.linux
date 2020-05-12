@@ -1,0 +1,15 @@
+---
+title: "Linux.note"
+output: html_notebook
+---
+
+# Linux basic
+* the super key is equal to the command key on mac platform
+    * super +TAB   : between app
+    * super +a     : applications
+    * super +d     : desktop
+    * **super +arrow** : snap windows
+    * super +space : change input
+    * ctrl  +q     : close
+    * ctrl+alt+t   : terminal 
+    
