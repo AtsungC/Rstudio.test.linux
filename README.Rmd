@@ -3,4 +3,6 @@ title: "README"
 output: html_document
 ---
 
-test
+try to activeate the credential helpler 
+refresh the password at 1000000 seconds 
+which is aruond 16 weeks
