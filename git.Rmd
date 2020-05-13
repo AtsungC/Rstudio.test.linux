@@ -31,5 +31,30 @@ output: html_document
 * git add . : add all files
 
 ### from githun and rstudio
+#### clone and record 
+* git clone : the clone the whole file form remote repo
+* git status 
+* git log 
+* git log --online
+#### remote
+* git remote add origin url : add a remote to existing local repo
+* git remote --verbose : checking the remote
+* git remote show origin : checkiing the remote in details
+#### push
+* git push --set-upstream origin master : push local master to github master and lave local master track master on github
+* git push -u origin master : once only
+#### regular push
+* git push
+* git push origin master
+#### pull
+* git pull : keep the local file up-to-date
+* git pull --ff-only : **pull commits and don't let it ptu yuo in a merge conflic pickle**
+* **git fetch** 
+* git checkout [branch-name]: switch to a brance
+#### checking 
+* git remote -v
+* git branch -vv
+
+
 
 
