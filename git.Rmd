@@ -5,7 +5,7 @@ output: html_document
 
 **name of the file without . to clear the confusion for interreption **
 
-# Basic Git (trying log and reset, diff)
+# Basic Git (trying log and reset, reset the commit )
 
 ## Repo, commit, diff, tag
 * repo : the files 
@@ -38,10 +38,12 @@ output: html_document
     * git diff HEAD
 * git add . : add all files
 
+#### reset
+* restore to the previous version
 
 
 
-### from githun and rstudio
+### ch 21 from githun and rstudio
 #### clone and record 
 * git clone : the clone the whole file form remote repo
 * git status 
