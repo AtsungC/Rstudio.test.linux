@@ -385,6 +385,17 @@ summary {
 <div id="log-and-diff" class="section level4">
 <h4>log and diff</h4>
 <ul>
+<li>workflow : four stages, untracked unmodified, modified, staged
+<ul>
+<li>the flow : untrack(add)staged(commit)unmodified(editing)modified(add)staged(commit)unmodified ……</li>
+<li><strong>add</strong> : regardless current stage, this will command to staged stage which is ready for commit:
+<ul>
+<li>first time : untracked to staged</li>
+<li>after first time : modified to stage</li>
+</ul></li>
+<li><strong>commit</strong> : from staged to unmodified which is ready for push to remote</li>
+<li><strong>while editing</strong> : the unmodified to modified</li>
+</ul></li>
 <li>log : the record of changed content
 <ul>
 <li>git log : show the previous record of change</li>
@@ -416,7 +427,7 @@ summary {
 <li>git clone : the clone the whole file form remote repo</li>
 <li>git status</li>
 <li>git log</li>
-<li>git log –online #### remote</li>
+<li>git log –online : show the record with SHAD (7letters) #### remote</li>
 <li>git remote add origin url : add a remote to existing local repo</li>
 <li>git remote –verbose : checking the remote</li>
 <li>git remote show origin : checkiing the remote in details #### push</li>

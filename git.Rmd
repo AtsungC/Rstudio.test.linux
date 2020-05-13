@@ -5,7 +5,7 @@ output: html_document
 
 **name of the file without . to clear the confusion for interreption **
 
-# Basic Git
+# Basic Git (trying log and reset, diff)
 
 ## Repo, commit, diff, tag
 * repo : the files 
@@ -17,25 +17,36 @@ output: html_document
 
 ### From Morvan
 #### log and diff
+* workflow : four stages, untracked unmodified, modified, staged
+    * the flow : untrack(add)staged(commit)unmodified(editing)modified(add)staged(commit)unmodified ......
+    * **add** : regardless current stage, this will command to staged stage which is ready for commit: 
+        * first time : untracked to staged 
+        * after first time : modified to stage
+    * **commit** : from staged to unmodified which is ready for push to remote
+    * **while editing** : the unmodified to modified
 * log : the record of changed content
     * git log : show the previous record of change
 * checking the difference between current modified file (unstaged which hasn't added) and previous record in the git
     * a/git : previous git file
     * b/git : current saved file
-    * diff : the different between a/git and b/git
-    * git diff
-* checking the difference after added 
+    * **diff** : the different between a/git and b/git, between modified and unmodified
+        * git diff 
+        * git status -s : chech the stages 
+* checking the difference between staged and modified 
     * git diff --cached
 * checking the difference between unadded and added
     * git diff HEAD
 * git add . : add all files
+
+
+
 
 ### from githun and rstudio
 #### clone and record 
 * git clone : the clone the whole file form remote repo
 * git status 
 * git log 
-* git log --online
+* git log --online : show the record with SHAD (7letters)
 #### remote
 * git remote add origin url : add a remote to existing local repo
 * git remote --verbose : checking the remote
