@@ -1,0 +1,31 @@
+---
+title: "git.command"
+output: html_document
+---
+
+**name of the file without . to clear the confusion for interreption **
+
+# Basic Git
+
+## Repo, commit, diff, tag
+* repo : the files 
+* commit : hinds of changes
+* diff : the difference between versions
+* tag : like a nickname of the version
+
+## Bacis commands 
+
+### From Morvan
+#### log and diff
+* log : the record of changed content
+    * git log : show the previous record of change
+* checking the difference between current modified file (unstaged which hasn't added) and previous record in the git
+    * a/git : previous git file
+    * b/git : current saved file
+    * diff : the different between a/git and b/git
+    * git diff
+* checking the difference after added 
+    * git diff --cached
+* checking the difference between unadded and added
+    * git diff HEAD
+* git add . : add all files

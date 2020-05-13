@@ -1,6 +1,11 @@
 ---
 title: "README"
-output: html_document
+output: 
+  html_document
 ---
 
 # basic skills on linux, git, and rstudio.
+
+
+
+
