@@ -5,6 +5,7 @@ output: html_document
 
 **name of the file without . to clear the confusion for interreption **
 
+
 # Basic Git (WITHOUT BRANCH SETTING)
 
 ## Repo, commit, diff, tag
@@ -38,6 +39,7 @@ output: html_document
     * git diff HEAD
 * git add . : add all files
 
+
 #### reset 
 * for whole file (unit is COMMIT)
 * git commit --amend --no-edit : add current changes to previous commit
@@ -56,6 +58,7 @@ output: html_document
 
 
 ### ch 21 from githun and rstudio
+
 #### clone and record 
 * git clone : the clone the whole file form remote repo
 * git status 
