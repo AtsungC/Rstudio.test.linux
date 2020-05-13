@@ -1,6 +1,6 @@
 ---
 title: "Linux.note"
-output: html_notebook
+output: github_document
 ---
 
 # Linux basic

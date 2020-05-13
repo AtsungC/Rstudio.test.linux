@@ -1,0 +1,22 @@
+---
+title: "git.basic"
+output:
+hdml_document:
+  keep_md:true
+---
+
+# Basic Git
+
+## Repo, commit, diff, tag
+* repo : the files 
+* commit : hinds of changes
+* diff : the difference between versions
+* tag : like a nickname of the version
+
+## Bacis commands 
+
+### From Morvan
+#### log and diff
+* log : the record of changed content
+
+
