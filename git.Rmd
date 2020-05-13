@@ -29,3 +29,7 @@ output: html_document
 * checking the difference between unadded and added
     * git diff HEAD
 * git add . : add all files
+
+### from githun and rstudio
+
+
