@@ -5,7 +5,7 @@ output: html_document
 
 **name of the file without . to clear the confusion for interreption **
 
-# Basic Git (trying log and reset, reset the commit )
+# Basic Git (WITHOUT BRANCH SETTING)
 
 ## Repo, commit, diff, tag
 * repo : the files 
@@ -38,8 +38,20 @@ output: html_document
     * git diff HEAD
 * git add . : add all files
 
-#### reset
-* restore to the previous version
+#### reset 
+* for whole file (unit is COMMIT)
+* git commit --amend --no-edit : add current changes to previous commit
+* git rest [filename] : back to before add command (staged),from staged stage(ready for commit) to modified stage
+* git reset --hard HEAD : back to previous commit
+* git reset --hard HEAD^^^^^^ (^WHICH LEVELS)
+* git reset --hard HEAD~[NUMBER]
+* git reset --hard THE SHAD[7 LETTERS]
+* git reflog : the log of HEAD changes for looking for the SHAD LETTERS
+
+#### checkout
+* for restoring single file instead of whole project (rest command)
+* git checkout SHAD LETTERS -- FILE.NAME
+
 
 
 
